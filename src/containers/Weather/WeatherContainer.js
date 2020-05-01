@@ -29,7 +29,7 @@ const WeatherContainer = ({ props }) => {
       pressure={pressure}
       humidity={humidity}
       temperature={temperature}
-      name={props.name}
+      city={props.city}
       convertTemp={convertTemp}
       toggleUnits={toggleUnits}
     />

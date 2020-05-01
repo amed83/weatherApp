@@ -6,10 +6,10 @@ const LatestResults = ({ latest, selectLatest }) => {
     <div>
       Latest Results
       <div className={style.container} data-testid="latest-results">
-        {latest.map((data, index) => {
+        {latest.map((data) => {
           return (
             <div key={data.id} onClick={() => selectLatest(data.id)}>
-              {data.name.toUpperCase()}
+              {data.city.toUpperCase()}
             </div>
           );
         })}

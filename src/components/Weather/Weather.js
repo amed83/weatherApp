@@ -6,17 +6,17 @@ const Weather = ({
   pressure,
   humidity,
   convertTemp,
-  name,
+  city,
   toggleUnits,
   temperature,
 }) => {
   return (
     <div className={style.weather_container}>
-      <div className={style.location}>{name.toUpperCase()}</div>
+      <div className={style.location}>{city.toUpperCase()}</div>
       <div className={style.temperature}>
         {temperature} {degreesUnit === "Kelvin" ? "K" : "C"}
         <button onClick={() => convertTemp()}>
-          Convert to {toggleUnits()}
+          Convert to {toggleUnits(degreesUnit)}
         </button>
       </div>
       <div>{pressure} hpa</div>
