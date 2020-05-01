@@ -54,5 +54,5 @@ Libraries:
 -------------------
 You may not use any external libraries (Except for linters)
 
-##Usage
+## Usage
 Rename "utils/yourApiKey" to "apiKey" and add your own API key
