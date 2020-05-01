@@ -55,4 +55,4 @@ Libraries:
 You may not use any external libraries (Except for linters)
 
 ##Usage
-Rename "utils/yourApiKey.js" to "apiKey" and add your own API key
+Rename "utils/yourApiKey" to "apiKey" and add your own API key
