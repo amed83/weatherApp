@@ -1,14 +1,14 @@
 .container {
-    display: flex;
-    flex-direction: column;
-    /*border: solid white 1px;*/
-    /*height:15rem;*/
-    /*justify-content: space-between;*/
-    margin-top:1rem;
-    padding:1rem;
+  display: flex;
+  flex-direction: column;
+  /*border: solid white 1px;*/
+  /*height:15rem;*/
+  /*justify-content: space-between;*/
+  margin-top: 1rem;
+  padding: 1rem;
 }
 
-.container >div{
-    margin-bottom: 1rem;
-    cursor:pointer;
+.container > div {
+  margin-bottom: 1rem;
+  cursor: pointer;
 }

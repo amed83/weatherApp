@@ -5,6 +5,7 @@ const Timer = ({ countdown }) => {
   return (
     <div className={style.timer}>
       {countdown >= 0 ? `Refreshing in ${countdown} s` : 60}
+      Latest update
     </div>
   );
 };

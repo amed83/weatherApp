@@ -21,11 +21,11 @@ describe("LatestResults ", () => {
           latest={[
             {
               id: 1,
-              name: "London",
+              city: "London",
             },
             {
               id: 2,
-              name: "rome",
+              city: "rome",
             },
           ]}
         />,
