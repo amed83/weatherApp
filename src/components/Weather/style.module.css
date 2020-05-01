@@ -1,0 +1,19 @@
+.weather_container{
+    border:dashed #490ca3 2px;
+    display: flex;
+    flex-direction: column;
+    padding:1rem;
+    width:18rem;
+    justify-content: space-between;
+    height: 60%;
+}
+
+.location{
+    color: #ffb30e;
+}
+
+.temperature{
+    display: flex;
+    justify-content: space-between;
+    width:80%;
+}

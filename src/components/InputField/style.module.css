@@ -1,0 +1,12 @@
+.form_container {
+  display: flex;
+  width: 20rem;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+
+.input {
+  height: 1.4rem;
+  font-size: 12px;
+}
