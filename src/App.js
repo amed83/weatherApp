@@ -1,6 +1,6 @@
 import React from "react";
 import DashboardContainer from "./containers/Dashboard/DashboardContainer";
-// comment
+// comment added
 const App = () => {
   return (
     // TODO: Replace this with your application code
