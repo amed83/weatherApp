@@ -2,6 +2,9 @@
   "name": "whats-the-weather",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": "12.18.1"
+  },
   "dependencies": {
     "prettier": "^2.0.5",
     "react": "^16.8.4",
